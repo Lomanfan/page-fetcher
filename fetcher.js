@@ -1,3 +1,6 @@
+//Runner Code:
+//node fetcher.js http://www.example.edu/ ./index.html
+//Result: Downloaded and saved 3261 bytes to ./index.html
 
 const request = require('request');
 const fs = require('fs');
