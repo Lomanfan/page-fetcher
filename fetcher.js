@@ -1,4 +1,4 @@
-//Runner Code:
+
 //node fetcher.js http://www.example.edu/ ./index.html
 //Result: Downloaded and saved 3261 bytes to ./index.html
 
@@ -9,7 +9,7 @@ const URL = process.argv[2];
 const path = process.argv[3];
 
 
-request(URL, function(error, response, body) {
+request(URL, function (error, response, body) {
   console.error('error:', error);
   console.log('statusCode:', response && response.statusCode);
 
