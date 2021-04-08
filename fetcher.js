@@ -19,7 +19,7 @@ request(URL, function(error, response, body) {
   }
 
   if (response && response.statusCode !== 200) {
-    console.log('bad statusCode');
+    console.log(`Status code: ${response.statusCode}`);
     return;
   }
 
